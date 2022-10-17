@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/beijing.js"></script>
+
+</head>
+<body>
+    <div id="1d7391a0b0944d1ba2ff3b46be05a585" class="chart-container" style="width:900px; height:800px;"></div>
+    <script>
+        var chart_1d7391a0b0944d1ba2ff3b46be05a585 = echarts.init(
+            document.getElementById('1d7391a0b0944d1ba2ff3b46be05a585'), 'dark', {renderer: 'canvas'});
+        var option_1d7391a0b0944d1ba2ff3b46be05a585 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "map",
+            "name": "AQI",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "\u5317\u4eac",
+            "data": [
+                {
+                    "name": "\u671d\u9633\u533a",
+                    "value": 122.14454083671023
+                },
+                {
+                    "name": "\u660c\u5e73\u533a",
+                    "value": 105.83183037497861
+                },
+                {
+                    "name": "\u4e1c\u57ce\u533a",
+                    "value": 121.59833913589407
+                },
+                {
+                    "name": "\u897f\u57ce\u533a",
+                    "value": 118.72672792648821
+                },
+                {
+                    "name": "\u77f3\u666f\u5c71\u533a",
+                    "value": 123.44232635123566
+                },
+                {
+                    "name": "\u6000\u67d4\u533a",
+                    "value": 105.68586267907082
+                },
+                {
+                    "name": "\u987a\u4e49\u533a",
+                    "value": 114.73985503110553
+                },
+                {
+                    "name": "\u6d77\u6dc0\u533a",
+                    "value": 125.49974316534444
+                },
+                {
+                    "name": "\u5ba3\u6b66\u533a",
+                    "value": 123.92089492608869
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "AQI"
+            ],
+            "selected": {
+                "AQI": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u5317\u4eac\u5404\u5730AQI",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 90,
+        "max": 150,
+        "text": "AQI\u989c\u8272\u533a\u95f4",
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 6,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+        chart_1d7391a0b0944d1ba2ff3b46be05a585.setOption(option_1d7391a0b0944d1ba2ff3b46be05a585);
+    </script>
+</body>
+</html>
